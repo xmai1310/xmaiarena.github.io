@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'MTD Chuck Noon Script';
+    src: url('MTD.eot');
+    src: url('MTD.eot?#iefix') format('embedded-opentype'),
+        url('MTD.woff2') format('woff2'),
+        url('MTD.woff') format('woff'),
+        url('MTD.ttf') format('truetype'),
+        url('MTD.svg#MTD') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('MinionPro-Regular.eot');
+    src: url('MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MinionPro-Regular.woff2') format('woff2'),
+        url('MinionPro-Regular.woff') format('woff'),
+        url('MinionPro-Regular.ttf') format('truetype'),
+        url('MinionPro-Regular.svg#MinionPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('Bahnschrift.eot');
+    src: url('Bahnschrift.eot?#iefix') format('embedded-opentype'),
+        url('Bahnschrift.woff2') format('woff2'),
+        url('Bahnschrift.woff') format('woff'),
+        url('Bahnschrift.ttf') format('truetype'),
+        url('Bahnschrift.svg#Bahnschrift') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+	color: #000DFF;
+}
+

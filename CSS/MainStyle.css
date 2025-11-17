@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("Grid_system.css");
+@import url("all.css");
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Fleur+De+Leah&display=swap');
+body
+{
+/*	background-color:#E1E1E1;*/
+	color: #2F2E2E;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	margin: 0;
+	background-color: #eee;
+}
+h1,h2,h3,h4,.menu
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	display: block
+}
+a{ color: blueviolet; text-decoration: none}
+a:hover{ color: tomato}
+.a-xemthem{ font-weight: 500}
+
+.menu ul
+{
+	margin: 0;
+	padding: 0; 
+	list-style: none
+}
+.menu ul li
+{
+	display: inline-block ;/* day cac list len canh nhau chung 1 hang*/
+	position: relative/* cho dt con dung dien tich cua minh de dinh vi tri*/
+}
+.menu ul li a
+{
+	background-color:#FFCE00;
+	background-image: linear-gradient(10deg,tomato,#eee);
+	padding: 8px 16px;
+	color:black;display: block;
+	text-decoration:none /*bo gach chan underline*/
+}
+.menu ul li a:hover{
+	background-color: #FFE500
+}
+.menu ul ul
+{
+	position: absolute;
+	left: 0; top: 100%;
+	background-color:#FFCE00;
+	width: 200px;
+	display: none
+}
+.menu ul ul li
+{
+	display: block;
+	border-bottom: 1px solid #391919
+	
+}
+
+.menu ul li:hover> ul
+{
+	display: block
+}
+.menu
+{ 
+	border-bottom: thin solid
+}
+
+h1
+{	font-size: 2.5rem;
+	background: #121FCF;
+background: linear-gradient(to right, #92AB 0%, #CF1512 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+h2
+{font-size: 2rem}
+h3
+{font-size:1.5rem;
+color:green}
+h4
+{font-size: 1rem;}
+.card
+{background-color: white;
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+border-radius: 8px;
+padding: 16px}
+.card-img
+{border-radius: 4px 4px 0 0;}
+.card-body
+{padding:16px;}
+.font-thu2{ color: #dd42f5}
+.input-form{ 
+    padding: 10px; width: 100%; margin-top: 10px; 
+    margin-bottom: 10px; border: 1px solid #ccc; 
+    border-radius: 5px; font-size: 16px}
